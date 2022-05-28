@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="610.0" prefWidth="920.0" style="-fx-background-color: coral;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="best.AboutusController">
+   <children>
+      <TextArea fx:id="textarea" layoutX="124.0" layoutY="144.0" prefHeight="295.0" prefWidth="565.0" />
+      <FontAwesomeIcon iconName="HOME" layoutX="25.0" layoutY="37.0" onMouseClicked="#goto_home" size="1.5em" />
+   </children>
+</AnchorPane>

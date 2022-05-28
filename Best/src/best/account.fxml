@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="610.0" prefWidth="920.0" style="-fx-background-color: coral;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="best.AccountController">
+   <children>
+      <TextField fx:id="username" layoutX="274.0" layoutY="203.0" prefHeight="25.0" prefWidth="268.0" promptText="new username" />
+      <TextField fx:id="password" layoutX="274.0" layoutY="266.0" prefHeight="25.0" prefWidth="268.0" promptText="new password" />
+      <TextField fx:id="secrate_answer" layoutX="272.0" layoutY="419.0" prefHeight="25.0" prefWidth="268.0" promptText="your secrate answer" />
+      <FontAwesomeIcon iconName="USER" layoutX="237.0" layoutY="219.0" size="1.5em" />
+      <FontAwesomeIcon iconName="LOCK" layoutX="238.0" layoutY="283.0" size="1.5em" />
+      <Label layoutX="266.0" layoutY="361.0" prefHeight="31.0" prefWidth="268.0" text="What is your nick name?">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="save" layoutX="244.0" layoutY="528.0" mnemonicParsing="false" onAction="#save_action" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: white;" text="save" />
+      <Button fx:id="clear" layoutX="406.0" layoutY="528.0" mnemonicParsing="false" onAction="#clear_action" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: white;" text="clear" />
+      <FontAwesomeIcon iconName="HOME" layoutX="33.0" layoutY="48.0" onMouseClicked="#goto_home" size="1.5em" />
+   </children>
+</AnchorPane>

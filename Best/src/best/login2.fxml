@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="610.0" prefWidth="920.0" style="-fx-background-color: coral;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="best.Login2Controller">
+   <children>
+      <TextField fx:id="username" layoutX="318.0" layoutY="195.0" prefHeight="25.0" prefWidth="278.0" promptText="username" />
+      <TextField fx:id="password" layoutX="318.0" layoutY="264.0" prefHeight="25.0" prefWidth="278.0" promptText="password" />
+      <TextField fx:id="secrate_answer" layoutX="273.0" layoutY="608.0" prefHeight="25.0" prefWidth="235.0" promptText="secrate code" />
+      <Button fx:id="login2" layoutX="544.0" layoutY="608.0" mnemonicParsing="false" onAction="#login_action" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: white;" text="Login" />
+      <Button fx:id="login" layoutX="329.0" layoutY="352.0" mnemonicParsing="false" onAction="#login_action" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: white;" text="Login" />
+      <Button fx:id="forgote" layoutX="457.0" layoutY="352.0" mnemonicParsing="false" onAction="#login_action" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: white;" text="Forget Password" />
+      <FontAwesomeIcon iconName="HOME" layoutX="34.0" layoutY="42.0" onMouseClicked="#goto_home" size="1.5em" />
+   </children>
+</AnchorPane>

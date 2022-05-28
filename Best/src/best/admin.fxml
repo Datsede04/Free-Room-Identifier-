@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="610.0" prefWidth="920.0" style="-fx-background-color: coral;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="best.AdminController">
+   <children>
+      <Button fx:id="insert" layoutX="303.0" layoutY="231.0" mnemonicParsing="false" onAction="#setonaction" prefHeight="45.0" prefWidth="104.0" style="-fx-background-color: white;" text="Insert" />
+      <Button fx:id="edit" layoutX="432.0" layoutY="231.0" mnemonicParsing="false" onAction="#setonaction" prefHeight="45.0" prefWidth="104.0" style="-fx-background-color: white;" text="Edit" />
+      <Button fx:id="account" layoutX="303.0" layoutY="307.0" mnemonicParsing="false" onAction="#setonaction" prefHeight="45.0" prefWidth="104.0" style="-fx-background-color: white;" text="account" />
+      <Button fx:id="aboutus" layoutX="432.0" layoutY="307.0" mnemonicParsing="false" onAction="#setonaction" prefHeight="45.0" prefWidth="104.0" style="-fx-background-color: white;" text="about us" />
+      <FontAwesomeIcon iconName="HOME" layoutX="32.0" layoutY="35.0" onMouseClicked="#goto_home" size="1.5em" />
+      <Button fx:id="new_semistor" layoutX="198.0" layoutY="66.0" mnemonicParsing="false" onAction="#new_semistor" prefHeight="32.0" prefWidth="94.0" rotate="-32.0" style="-fx-background-color: white;" text="New Semistor" textFill="#da5d23" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="610.0" prefWidth="920.0" style="-fx-background-color: coral;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="best.EditController">
+   <children>
+      <ComboBox fx:id="combo2" layoutX="224.0" layoutY="91.0" onAction="#combo_action2" prefHeight="25.0" prefWidth="136.0" style="-fx-background-color: white;" />
+      <ComboBox fx:id="combo3" layoutX="395.0" layoutY="91.0" onAction="#combo_Action3" prefHeight="25.0" prefWidth="136.0" style="-fx-background-color: white;" visibleRowCount="5" />
+      <ComboBox fx:id="combo4" layoutX="564.0" layoutY="91.0" onAction="#combo4_action" prefHeight="25.0" prefWidth="136.0" style="-fx-background-color: white;" />
+      <ComboBox fx:id="combo5" layoutX="734.0" layoutY="91.0" onAction="#combo_action5" prefHeight="25.0" prefWidth="136.0" style="-fx-background-color: white;" />
+      <ComboBox fx:id="combo1" layoutX="55.0" layoutY="91.0" onAction="#combo_action1" prefHeight="25.0" prefWidth="136.0" style="-fx-background-color: white;" />
+      <TextField fx:id="m1" layoutX="116.0" layoutY="219.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="1st period" />
+      <Label fx:id="mlabel" layoutX="110.0" layoutY="175.0" prefHeight="17.0" prefWidth="88.0" text="Label" />
+      <TextField fx:id="m2" layoutX="116.0" layoutY="258.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="2nd period" />
+      <TextField fx:id="m3" layoutX="116.0" layoutY="298.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="3rd period" />
+      <TextField fx:id="m4" layoutX="116.0" layoutY="334.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="4th period" />
+      <TextField fx:id="m5" layoutX="116.0" layoutY="371.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="5th period" />
+      <TextField fx:id="m6" layoutX="116.0" layoutY="411.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="6th period" />
+      <TextField fx:id="m7" layoutX="116.0" layoutY="449.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="7th period" />
+      <TextField fx:id="tu1" layoutX="224.0" layoutY="219.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="1st period" />
+      <TextField fx:id="tu2" layoutX="224.0" layoutY="258.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="2nd period" />
+      <TextField fx:id="tu3" layoutX="224.0" layoutY="298.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="3rd period" />
+      <TextField fx:id="tu4" layoutX="224.0" layoutY="334.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="4th period" />
+      <TextField fx:id="tu5" layoutX="224.0" layoutY="371.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="5th period" />
+      <TextField fx:id="tu6" layoutX="224.0" layoutY="411.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="6th period" />
+      <TextField fx:id="tu7" layoutX="224.0" layoutY="449.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="7th period" />
+      <TextField fx:id="w1" layoutX="336.0" layoutY="218.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="1st period" />
+      <TextField fx:id="w2" layoutX="336.0" layoutY="257.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="2nd period" />
+      <TextField fx:id="w3" layoutX="336.0" layoutY="297.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="3rd period" />
+      <TextField fx:id="w4" layoutX="336.0" layoutY="333.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="4th period" />
+      <TextField fx:id="w5" layoutX="336.0" layoutY="370.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="5th period" />
+      <TextField fx:id="w6" layoutX="336.0" layoutY="410.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="6th period" />
+      <TextField fx:id="w7" layoutX="336.0" layoutY="448.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="7th period" />
+      <TextField fx:id="th1" layoutX="444.0" layoutY="218.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="1st period" />
+      <TextField fx:id="th2" layoutX="444.0" layoutY="257.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="2nd period" />
+      <TextField fx:id="th3" layoutX="444.0" layoutY="297.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="3rd period" />
+      <TextField fx:id="th4" layoutX="444.0" layoutY="333.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="4th period" />
+      <TextField fx:id="th5" layoutX="444.0" layoutY="370.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="5th period" />
+      <TextField fx:id="th6" layoutX="444.0" layoutY="410.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="6th period" />
+      <TextField fx:id="th7" layoutX="444.0" layoutY="448.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="7th period" />
+      <TextField fx:id="f1" layoutX="550.0" layoutY="219.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="1st period" />
+      <TextField fx:id="f2" layoutX="550.0" layoutY="258.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="2nd period" />
+      <TextField fx:id="f3" layoutX="550.0" layoutY="298.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="3rd period" />
+      <TextField fx:id="f4" layoutX="550.0" layoutY="334.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="4th period" />
+      <TextField fx:id="f5" layoutX="550.0" layoutY="371.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="5th period" />
+      <TextField fx:id="f6" layoutX="550.0" layoutY="411.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="6th period" />
+      <TextField fx:id="f7" layoutX="550.0" layoutY="449.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="7th period" />
+      <TextField fx:id="sa1" layoutX="659.0" layoutY="219.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="1st period" />
+      <TextField fx:id="sa2" layoutX="659.0" layoutY="258.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="2nd period" />
+      <TextField fx:id="sa3" layoutX="659.0" layoutY="298.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="3rd period" />
+      <TextField fx:id="sa4" layoutX="659.0" layoutY="334.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="4th period" />
+      <TextField fx:id="sa5" layoutX="659.0" layoutY="371.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="5th period" />
+      <TextField fx:id="sa6" layoutX="659.0" layoutY="411.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="6th period" />
+      <TextField fx:id="sa7" layoutX="659.0" layoutY="449.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="7th period" />
+      <TextField fx:id="s1" layoutX="773.0" layoutY="220.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="1st period" />
+      <TextField fx:id="s2" layoutX="773.0" layoutY="259.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="2nd period" />
+      <TextField fx:id="s3" layoutX="773.0" layoutY="297.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="3rd period" />
+      <TextField fx:id="s4" layoutX="773.0" layoutY="333.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="4th period" />
+      <TextField fx:id="s5" layoutX="773.0" layoutY="370.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="5th period" />
+      <TextField fx:id="s6" layoutX="773.0" layoutY="410.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="6th period" />
+      <TextField fx:id="s7" layoutX="773.0" layoutY="448.0" onKeyPressed="#validate" prefHeight="25.0" prefWidth="75.0" promptText="7th period" />
+      <Label fx:id="tulabel" layoutX="211.0" layoutY="175.0" prefHeight="17.0" prefWidth="88.0" text="Label" />
+      <Label fx:id="wlabel" layoutX="330.0" layoutY="175.0" prefHeight="17.0" prefWidth="88.0" text="Label" />
+      <Label fx:id="thlabel" layoutX="438.0" layoutY="175.0" prefHeight="17.0" prefWidth="88.0" text="Label" />
+      <Label fx:id="flabel" layoutX="544.0" layoutY="175.0" prefHeight="17.0" prefWidth="88.0" text="Label" />
+      <Label fx:id="salabel" layoutX="653.0" layoutY="175.0" prefHeight="17.0" prefWidth="88.0" text="Label" />
+      <Label fx:id="slabel" layoutX="767.0" layoutY="175.0" prefHeight="17.0" prefWidth="88.0" text="Label" />
+      <Button fx:id="save" layoutX="474.0" layoutY="546.0" mnemonicParsing="false" onAction="#save_action" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: white;" text="save" />
+      <FontAwesomeIcon iconName="HOME" layoutX="24.0" layoutY="31.0" onMouseClicked="#goto_home" size="1.5em" />
+   </children>
+</AnchorPane>
